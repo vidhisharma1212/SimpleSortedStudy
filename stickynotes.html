@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To-do</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="note.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ba354e39fa.js" crossorigin="anonymous"></script>
+    <a href="https://icons8.com/icon/62452/firebase"></a>
+</head>
+
+<body>
+
+    <nav class="navigation container">
+        <div class="nav-brand">SimpleSortedStudy</div>
+        <ul class="nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="index.html">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="blogs.html">Blogs</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="stickynotes.html">To-Do List</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="counselling.html">Get Counselling</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="section lp">
+        <div class="task-input">
+          <ion-icon name="create-outline"></ion-icon>
+          <input type="text" placeholder="Add a New Task + Enter" />
+        </div>
+        <div class="controls">
+          <div class="filters">
+            <span class="active todo-head-proj" id="all">All</span>
+            <span id="pending" class="todo-head-proj">Pending</span>
+            <span id="completed" class="todo-head-proj">Completed</span>
+          </div>
+          <button class="clear-btn link link-primary">Clear All</button>
+        </div>
+        <ul class="task-box"></ul>
+      </div>
+      <script src="main.js"></script>
+      <footer class="footer">
+        
+        
+</body>
